@@ -33,11 +33,12 @@ html, body {
 }
 
 .content a {
-	color: #000;
-	
+	color: #428bca;
+	text-decoration: none;
 }
 .content a:hover {
-	color: #A6FF00;
+	color: #2a6496;
+	text-decoration: underline;
 }
 
 .container {
