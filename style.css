@@ -17,9 +17,26 @@ html, body {
 	margin-left: 20px;
 }
 
+.logo {
+	width: 40px;
+	float: left;
+	padding: 0;
+}
+
+.nav-links {
+	float: right;
+}
+
 .header a:hover {
 	color: #A6FF00;
 	text-decoration: none;
+}
+
+.content a {
+	color: #000;
+}
+.content a:hover {
+	color: #A6FF00;
 }
 
 .container {
@@ -158,5 +175,11 @@ img {
 	}
 	.container {
 		width: 100%;
+	}
+	.logo {
+		display: none;
+	}
+	.nav-links {
+		float: none;
 	}
 }
